@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_inputs/global_key_kullanimi.dart';
 import 'package:flutter_inputs/text_field_islemleri.dart';
 import 'package:flutter_inputs/text_form_field.dart';
 
@@ -21,7 +22,8 @@ class MyApp extends StatelessWidget {
             shadowColor: Colors.black,
             elevation: 12 ),
       ),
-      home: Text_Form_Field(),
+      home: GlobalKeyKullanimi(),
+      //Text_Form_Field(),
       //Text_Field_islemleri(),
     );
   }
