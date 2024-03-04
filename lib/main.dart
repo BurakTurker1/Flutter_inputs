@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_inputs/text_field_islemleri.dart';
+import 'package:flutter_inputs/text_form_field.dart';
 
 void main(List<String> args) {
   runApp(MyApp());
@@ -20,7 +21,8 @@ class MyApp extends StatelessWidget {
             shadowColor: Colors.black,
             elevation: 12 ),
       ),
-      home: Text_Field_islemleri(),
+      home: Text_Form_Field(),
+      //Text_Field_islemleri(),
     );
   }
 }
