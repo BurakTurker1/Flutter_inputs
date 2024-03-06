@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_inputs/chechbox_slider_radio_switch.dart';
+import 'package:flutter_inputs/date_time_picker.dart';
 import 'package:flutter_inputs/dropdownbutton_menu.dart';
 import 'package:flutter_inputs/global_key_kullanimi.dart';
 import 'package:flutter_inputs/text_field_islemleri.dart';
@@ -23,7 +24,8 @@ class MyApp extends StatelessWidget {
             shadowColor: Colors.black,
             elevation: 12 ),
       ),
-      home: DropDownButton_Menu(),
+      home: Date_Time_Picker(),
+      //DropDownButton_Menu(),
       //FormElemanlari(),
       //GlobalKeyKullanimi(),
       //Text_Form_Field(),
