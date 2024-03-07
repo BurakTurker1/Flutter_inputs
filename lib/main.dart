@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_inputs/chechbox_slider_radio_switch.dart';
 import 'package:flutter_inputs/date_time_picker.dart';
 import 'package:flutter_inputs/dropdownbutton_menu.dart';
+import 'package:flutter_inputs/gelismis_stepper.dart';
 import 'package:flutter_inputs/global_key_kullanimi.dart';
 import 'package:flutter_inputs/stepper.dart';
 import 'package:flutter_inputs/text_field_islemleri.dart';
@@ -25,7 +26,8 @@ class MyApp extends StatelessWidget {
             shadowColor: Colors.black,
             elevation: 12 ),
       ),
-      home: Stepper_OrnekState(),
+      home: Gelismis_Stepper_OrnekState(),
+      //Stepper_OrnekState(),
       //Date_Time_Picker(),
       //DropDownButton_Menu(),
       //FormElemanlari(),
